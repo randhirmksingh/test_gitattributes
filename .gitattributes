@@ -1,0 +1,6 @@
+IgnoredFolder linguist-generated=true
+IgnoredFolder/** linguist-generated=true
+IgnoredFolder/**/* linguist-generated=true
+/IgnoredFolder linguist-generated=true
+/IgnoredFolder/** linguist-generated=true
+/IgnoredFolder/**/* linguist-generated=true

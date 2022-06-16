@@ -13,6 +13,7 @@
 		1858693D285B60A700F6F8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1858693B285B60A700F6F8A5 /* Main.storyboard */; };
 		1858693F285B60A900F6F8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1858693E285B60A900F6F8A5 /* Assets.xcassets */; };
 		18586942285B60A900F6F8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18586940285B60A900F6F8A5 /* LaunchScreen.storyboard */; };
+		1858694B285B614B00F6F8A5 /* ToBeIgnored.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858694A285B614B00F6F8A5 /* ToBeIgnored.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1858693E285B60A900F6F8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18586941285B60A900F6F8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18586943285B60A900F6F8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1858694A285B614B00F6F8A5 /* ToBeIgnored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBeIgnored.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		18586934285B60A700F6F8A5 /* test_gitattributes */ = {
 			isa = PBXGroup;
 			children = (
+				18586949285B613900F6F8A5 /* IgnoredFolder */,
 				18586935285B60A700F6F8A5 /* AppDelegate.swift */,
 				18586937285B60A700F6F8A5 /* SceneDelegate.swift */,
 				18586939285B60A700F6F8A5 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				18586943285B60A900F6F8A5 /* Info.plist */,
 			);
 			path = test_gitattributes;
+			sourceTree = "<group>";
+		};
+		18586949285B613900F6F8A5 /* IgnoredFolder */ = {
+			isa = PBXGroup;
+			children = (
+				1858694A285B614B00F6F8A5 /* ToBeIgnored.swift */,
+			);
+			path = IgnoredFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				1858693A285B60A700F6F8A5 /* ViewController.swift in Sources */,
 				18586936285B60A700F6F8A5 /* AppDelegate.swift in Sources */,
+				1858694B285B614B00F6F8A5 /* ToBeIgnored.swift in Sources */,
 				18586938285B60A700F6F8A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
