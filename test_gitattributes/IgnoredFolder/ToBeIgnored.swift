@@ -10,4 +10,7 @@ import Foundation
 class TestClass {
     func test() {
     }
+    
+    func test2() {
+    }
 }
