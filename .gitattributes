@@ -4,3 +4,4 @@ IgnoredFolder/**/* linguist-generated=true
 /IgnoredFolder linguist-generated=true
 /IgnoredFolder/** linguist-generated=true
 /IgnoredFolder/**/* linguist-generated=true
+test_gitattributes/IgnoredFolder/ToBeIgnored.swift linguist-generated=true
